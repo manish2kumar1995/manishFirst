@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="52" id="KGk-i7-Jjw" customClass="PaymentMethodsCell" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="51.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7YB-gu-NQs">
+                        <rect key="frame" x="20" y="0.0" width="280" height="52"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFh-8O-NgH">
+                                <rect key="frame" x="15" y="14" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BFh-8O-NgH" secondAttribute="height" multiplier="1:1" id="5Jd-gC-uQj"/>
+                                    <constraint firstAttribute="height" constant="25" id="y6u-0B-7fn"/>
+                                </constraints>
+                                <state key="normal" image="uncheck"/>
+                                <connections>
+                                    <action selector="buttonCheckAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xEC-4X-Rwx"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paymentIcon" translatesAutoresizingMaskIntoConstraints="NO" id="vF0-Rm-4OE">
+                                <rect key="frame" x="48" y="19" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Wgv-Ul-194"/>
+                                    <constraint firstAttribute="width" secondItem="vF0-Rm-4OE" secondAttribute="height" multiplier="1:1" id="ckJ-QU-d8z"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wso-pR-9lU">
+                                <rect key="frame" x="68" y="18.5" width="26" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.53328472375869751" green="0.53336453437805176" blue="0.53326725959777832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="***4242 05/2026" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJ4-Lo-YtB">
+                                <rect key="frame" x="160" y="18.5" width="105" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.51367849111557007" green="0.51375561952590942" blue="0.51366156339645386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95677906270000002" green="0.95691639179999999" blue="0.95674914119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vF0-Rm-4OE" firstAttribute="leading" secondItem="BFh-8O-NgH" secondAttribute="trailing" constant="8" id="CLT-v7-WJj"/>
+                            <constraint firstItem="tJ4-Lo-YtB" firstAttribute="centerY" secondItem="wso-pR-9lU" secondAttribute="centerY" id="LgD-nx-f7t"/>
+                            <constraint firstItem="wso-pR-9lU" firstAttribute="centerY" secondItem="vF0-Rm-4OE" secondAttribute="centerY" id="MqA-Vx-vCs"/>
+                            <constraint firstAttribute="trailing" secondItem="tJ4-Lo-YtB" secondAttribute="trailing" constant="15" id="QO1-CU-QxT"/>
+                            <constraint firstItem="wso-pR-9lU" firstAttribute="leading" secondItem="vF0-Rm-4OE" secondAttribute="trailing" constant="5" id="Qbf-ib-56r"/>
+                            <constraint firstItem="vF0-Rm-4OE" firstAttribute="centerY" secondItem="BFh-8O-NgH" secondAttribute="centerY" id="but-ih-Yns"/>
+                            <constraint firstItem="BFh-8O-NgH" firstAttribute="leading" secondItem="7YB-gu-NQs" secondAttribute="leading" constant="15" id="dcA-7a-jyf"/>
+                            <constraint firstItem="BFh-8O-NgH" firstAttribute="centerY" secondItem="7YB-gu-NQs" secondAttribute="centerY" id="k5l-gK-P43"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7YB-gu-NQs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ay4-su-Eny"/>
+                    <constraint firstItem="7YB-gu-NQs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="siB-4g-BMF"/>
+                    <constraint firstAttribute="bottom" secondItem="7YB-gu-NQs" secondAttribute="bottom" id="tRE-QV-z4B"/>
+                    <constraint firstAttribute="trailing" secondItem="7YB-gu-NQs" secondAttribute="trailing" constant="20" id="uPS-xA-N24"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonCheck" destination="BFh-8O-NgH" id="BWp-5y-vKX"/>
+                <outlet property="labelCardNumber" destination="tJ4-Lo-YtB" id="Q5I-zC-lS6"/>
+                <outlet property="labelPaymentMethods" destination="wso-pR-9lU" id="8sI-80-Tdq"/>
+                <outlet property="paymentMethodsImageIcon" destination="vF0-Rm-4OE" id="uUG-gU-AzJ"/>
+                <outlet property="viewInCell" destination="7YB-gu-NQs" id="DpR-OT-bRN"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="63"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="paymentIcon" width="20" height="16"/>
+        <image name="uncheck" width="40" height="40"/>
+    </resources>
+</document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham Medium Regular.ttf">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="InfoAboutTableCell" rowHeight="133" id="KGk-i7-Jjw" customClass="InfoAboutTableCell" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="133"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="132.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Set-nD-z8B">
+                        <rect key="frame" x="26" y="10" width="331" height="115.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Arby's Restaurant " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXy-I6-322">
+                                <rect key="frame" x="20" y="20" width="153.5" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="xBK-3j-V1o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQ5-6O-Q0c">
+                                <rect key="frame" x="20" y="40" width="296" height="65.5"/>
+                                <string key="text">Mauris id dignissim purus, a fringila ex. Sed rhoncus ex at commodo tempus. Morbi a maximus lorem. Pelintesque non dolor tincidunt. pulvinar dolor in, rutrum erat. Cras nec odio tempor, rutrum risus a sagittis turpis.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.75287443399429321" green="0.75298398733139038" blue="0.75285047292709351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95677906274795532" green="0.95691639184951782" blue="0.95674914121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="AQ5-6O-Q0c" secondAttribute="bottom" constant="10" id="3HI-vT-NL6"/>
+                            <constraint firstItem="IXy-I6-322" firstAttribute="top" secondItem="Set-nD-z8B" secondAttribute="top" constant="20" id="FI2-gd-Qdf"/>
+                            <constraint firstAttribute="trailing" secondItem="AQ5-6O-Q0c" secondAttribute="trailing" constant="15" id="K7k-05-kvt"/>
+                            <constraint firstItem="AQ5-6O-Q0c" firstAttribute="top" secondItem="IXy-I6-322" secondAttribute="bottom" constant="10" id="PxH-bs-clJ"/>
+                            <constraint firstItem="IXy-I6-322" firstAttribute="leading" secondItem="Set-nD-z8B" secondAttribute="leading" constant="20" id="p0Q-Kf-B4F"/>
+                            <constraint firstItem="AQ5-6O-Q0c" firstAttribute="leading" secondItem="IXy-I6-322" secondAttribute="leading" id="y4y-PP-Vpd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Set-nD-z8B" secondAttribute="bottom" constant="7" id="694-Vu-RDS"/>
+                    <constraint firstItem="Set-nD-z8B" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="GpV-Co-UFv"/>
+                    <constraint firstItem="Set-nD-z8B" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="NmS-5M-6iF"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Set-nD-z8B" secondAttribute="trailing" constant="10" id="RZ6-9a-hd3"/>
+                    <constraint firstItem="Set-nD-z8B" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="peo-rD-3dT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelAbout" destination="AQ5-6O-Q0c" id="1ar-OK-39u"/>
+                <outlet property="labelRestaurantName" destination="IXy-I6-322" id="Rz4-4l-ohm"/>
+                <outlet property="viewInCell" destination="Set-nD-z8B" id="NQf-DN-lDN"/>
+            </connections>
+            <point key="canvasLocation" x="7.5" y="-65.5"/>
+        </tableViewCell>
+    </objects>
+</document>

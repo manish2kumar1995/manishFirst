@@ -1,0 +1,75 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CardIO (5.4.1)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - HCSStarRatingView (1.5)
+  - HGCircularSlider (2.0.0)
+  - JWTDecode (2.1.1)
+  - MRCountryPicker (0.0.8)
+  - PushNotifications (1.1.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftyGif (4.2.0)
+  - SwiftyJSON (4.2.0)
+  - SwipeCellKit (2.4.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - CardIO
+  - GoogleMaps
+  - GooglePlaces
+  - HCSStarRatingView
+  - HGCircularSlider
+  - JWTDecode (~> 2.1)
+  - MRCountryPicker
+  - PushNotifications
+  - SDWebImage
+  - SVProgressHUD
+  - SwiftyGif
+  - SwiftyJSON
+  - SwipeCellKit (= 2.4.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CardIO
+    - GoogleMaps
+    - GooglePlaces
+    - HCSStarRatingView
+    - HGCircularSlider
+    - JWTDecode
+    - MRCountryPicker
+    - PushNotifications
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftyGif
+    - SwiftyJSON
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  HGCircularSlider: 92e2ee098c814709f455b8f46cd9008147f6a869
+  JWTDecode: 83e8b381aafe27158d9f692cbdca2b12d61d460c
+  MRCountryPicker: 1aeea66de25cdef79dce3b91d8ad9db643c1cc01
+  PushNotifications: 8eee2fb66f3870025fe037883c88f5861f315bd0
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyGif: a149bf84df23370592f3f075561ae02c8632a314
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  SwipeCellKit: cee9906e6d3a36e22ad1a852fba7f8fa0839d113
+
+PODFILE CHECKSUM: b9abb1205b9875e0a05471006a5a3c5431e07234
+
+COCOAPODS: 1.5.3

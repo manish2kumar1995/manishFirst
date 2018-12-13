@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham Medium Regular.ttf">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SubscriptionCollectionCell" id="gTV-IL-0wX" customClass="SubscriptionCollectionCell" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="425"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="425"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subscriptionBack" translatesAutoresizingMaskIntoConstraints="NO" id="iyL-oO-Lrk">
+                        <rect key="frame" x="5" y="0.0" width="325" height="425"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPw-nh-qTG">
+                        <rect key="frame" x="117.5" y="345" width="100" height="40"/>
+                        <color key="backgroundColor" red="0.64707744119999999" green="0.0" blue="9.7946736789999997e-05" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="cPw-nh-qTG" secondAttribute="height" multiplier="20:8" id="8CZ-Sn-z6B"/>
+                            <constraint firstAttribute="width" constant="100" id="T33-l9-iJV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
+                        <state key="normal" title="Select ">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="Xd2-X8-l1y"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7T-OI-CT7">
+                        <rect key="frame" x="140" y="226" width="55" height="16.5"/>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="18"/>
+                        <color key="textColor" red="0.64707744119999999" green="0.0" blue="9.7946736789999997e-05" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QY-AB-Snh">
+                        <rect key="frame" x="15" y="252.5" width="305" height="12"/>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="13"/>
+                        <color key="textColor" red="0.71758323907852173" green="0.71768802404403687" blue="0.7175602912902832" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="cPw-nh-qTG" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="262-Ya-N79"/>
+                <constraint firstItem="a7T-OI-CT7" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" multiplier="1.1" id="3xf-gA-wPO"/>
+                <constraint firstAttribute="trailing" secondItem="iyL-oO-Lrk" secondAttribute="trailing" constant="5" id="4ab-R4-tZ3"/>
+                <constraint firstItem="1QY-AB-Snh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="CC2-gF-Ezm"/>
+                <constraint firstItem="1QY-AB-Snh" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Dva-ss-2h8"/>
+                <constraint firstItem="iyL-oO-Lrk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Rbz-31-ENm"/>
+                <constraint firstItem="iyL-oO-Lrk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="ewd-15-Dwp"/>
+                <constraint firstAttribute="bottom" secondItem="cPw-nh-qTG" secondAttribute="bottom" constant="40" id="gFG-Dp-mQu"/>
+                <constraint firstItem="1QY-AB-Snh" firstAttribute="top" secondItem="a7T-OI-CT7" secondAttribute="bottom" constant="10" id="mvj-jg-2sA"/>
+                <constraint firstAttribute="bottom" secondItem="iyL-oO-Lrk" secondAttribute="bottom" id="tNB-9L-Sio"/>
+                <constraint firstItem="a7T-OI-CT7" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="y22-Ne-Z0x"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="335" height="425"/>
+            <connections>
+                <outlet property="buttonSelectPlan" destination="cPw-nh-qTG" id="LWg-Ka-Zmg"/>
+                <outlet property="labelDescription" destination="1QY-AB-Snh" id="GZY-hZ-goB"/>
+                <outlet property="labelName" destination="a7T-OI-CT7" id="0h4-Er-lVj"/>
+            </connections>
+            <point key="canvasLocation" x="73.5" y="-90.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="subscriptionBack" width="231" height="320"/>
+    </resources>
+</document>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham Medium Regular.ttf">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="137" id="KGk-i7-Jjw" customClass="MyAccountModeSection" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="BMJ-CL-YCq">
+                        <rect key="frame" x="0.0" y="60" width="320" height="55"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86s-Ti-iEF">
+                                <rect key="frame" x="0.0" y="0.0" width="105.5" height="55"/>
+                                <color key="backgroundColor" red="0.68627450980000004" green="0.031372549020000001" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="13"/>
+                                <state key="normal" title="Basic Info">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="profileModeActions:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZjI-Ux-f2j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0OR-hc-tH9">
+                                <rect key="frame" x="107.5" y="0.0" width="105" height="55"/>
+                                <color key="backgroundColor" red="0.92933040857315063" green="0.92946392297744751" blue="0.92930120229721069" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="13"/>
+                                <state key="normal" title="Preferences">
+                                    <color key="titleColor" red="0.65092200040817261" green="0.65101778507232666" blue="0.65090101957321167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="profileModeActions:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="WrN-Ga-8Np"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8A-1O-IWn">
+                                <rect key="frame" x="214.5" y="0.0" width="105.5" height="55"/>
+                                <color key="backgroundColor" red="0.92933040857315063" green="0.92946392297744751" blue="0.92930120229721069" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="13"/>
+                                <state key="normal" title="Delivery Info">
+                                    <color key="titleColor" red="0.65092200040817261" green="0.65101778507232666" blue="0.65090101957321167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="profileModeActions:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="EI1-UH-cYS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="55" id="dox-HE-Kxl"/>
+                        </constraints>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARY JANE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0V-DJ-WUC">
+                        <rect key="frame" x="0.0" y="10" width="320" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="ZFd-MB-0T4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="19"/>
+                        <color key="textColor" red="0.68627450980392157" green="0.031372549019607843" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="BMJ-CL-YCq" firstAttribute="top" secondItem="F0V-DJ-WUC" secondAttribute="bottom" id="6I3-42-DWb"/>
+                    <constraint firstItem="F0V-DJ-WUC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="FEA-Fp-ttR"/>
+                    <constraint firstItem="F0V-DJ-WUC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="azu-cP-SGe"/>
+                    <constraint firstAttribute="trailing" secondItem="F0V-DJ-WUC" secondAttribute="trailing" id="g2U-c9-7qc"/>
+                    <constraint firstAttribute="trailing" secondItem="BMJ-CL-YCq" secondAttribute="trailing" id="kBE-Du-2lq"/>
+                    <constraint firstItem="BMJ-CL-YCq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zzr-Df-djd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelUserName" destination="F0V-DJ-WUC" id="wVl-wj-1DV"/>
+                <outletCollection property="buttonProfileModes" destination="D8A-1O-IWn" collectionClass="NSMutableArray" id="6cq-Rr-PII"/>
+                <outletCollection property="buttonProfileModes" destination="0OR-hc-tH9" collectionClass="NSMutableArray" id="4Gy-Id-bLO"/>
+                <outletCollection property="buttonProfileModes" destination="86s-Ti-iEF" collectionClass="NSMutableArray" id="oT9-3u-Kar"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="30.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham Medium Regular.ttf">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SelectPlanTypeCell" id="gTV-IL-0wX" customClass="SelectPlanTypeCell" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="285" height="367"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="285" height="367"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pAV-sW-i2B">
+                        <rect key="frame" x="0.0" y="0.0" width="285" height="367"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZR-Rt-bQQ">
+                        <rect key="frame" x="116.5" y="30" width="52" height="15.5"/>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                        <color key="textColor" red="0.65099906919999995" green="1.3091505480000001e-06" blue="0.074558310210000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Lunch Plan provides lunch on a scheduled interval. A Lunch Plan provides lunch on a scheduled interval" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGc-3t-dD8">
+                        <rect key="frame" x="20" y="60.5" width="245" height="32.5"/>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
+                        <color key="textColor" red="0.75287443399429321" green="0.75298398733139038" blue="0.75285047292709351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calorieImage" translatesAutoresizingMaskIntoConstraints="NO" id="rgd-xU-Q5W">
+                        <rect key="frame" x="103" y="143.5" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="rgd-xU-Q5W" secondAttribute="height" multiplier="1:1" id="xPw-ks-ked"/>
+                            <constraint firstAttribute="height" constant="80" id="zE4-ja-LyT"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="per month" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpm-bZ-ybp">
+                        <rect key="frame" x="116.5" y="263" width="52.5" height="9"/>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="10"/>
+                        <color key="textColor" red="0.75287443399999998" green="0.75298398730000005" blue="0.75285047289999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="180 QAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPo-kJ-gTZ">
+                        <rect key="frame" x="104.5" y="240.5" width="75.5" height="15.5"/>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                        <color key="textColor" red="0.65099906919999995" green="1.3091505480000001e-06" blue="0.074558310210000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhh-2E-iOp">
+                        <rect key="frame" x="92" y="287" width="100" height="40"/>
+                        <color key="backgroundColor" red="0.64707744119999999" green="0.0" blue="9.7946736789999997e-05" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="Q3U-Z3-iIV"/>
+                            <constraint firstAttribute="width" secondItem="Fhh-2E-iOp" secondAttribute="height" multiplier="20:8" id="acc-GK-Ycy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
+                        <state key="normal" title="Select Plan">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="selectPlanAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="iq3-C4-Xss"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGe-AD-gIP">
+                        <rect key="frame" x="113" y="176" width="58.5" height="15.5"/>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfe-Lg-tCv">
+                        <rect key="frame" x="132.5" y="194" width="19.5" height="11"/>
+                        <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="12"/>
+                        <color key="textColor" red="0.72542566061019897" green="0.72553151845932007" blue="0.72148144245147705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Fhh-2E-iOp" secondAttribute="bottom" constant="40" id="0z6-aK-ePg"/>
+                <constraint firstAttribute="trailing" secondItem="pAV-sW-i2B" secondAttribute="trailing" id="3xj-tv-tW2"/>
+                <constraint firstItem="xfe-Lg-tCv" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="ARh-Eu-2DQ"/>
+                <constraint firstItem="Fhh-2E-iOp" firstAttribute="top" secondItem="lpm-bZ-ybp" secondAttribute="bottom" constant="15" id="CK9-Tb-rXU"/>
+                <constraint firstItem="tGe-AD-gIP" firstAttribute="centerY" secondItem="rgd-xU-Q5W" secondAttribute="centerY" id="DZU-DT-Rwc"/>
+                <constraint firstItem="SGc-3t-dD8" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="EdX-EA-0mA"/>
+                <constraint firstItem="Fhh-2E-iOp" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="FTA-WU-BzV"/>
+                <constraint firstItem="lpm-bZ-ybp" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="FfT-UW-1ux"/>
+                <constraint firstItem="vPo-kJ-gTZ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Fsd-VV-DCX"/>
+                <constraint firstItem="HZR-Rt-bQQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="30" id="JYu-0w-d7A"/>
+                <constraint firstItem="pAV-sW-i2B" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="LxO-dp-N7T"/>
+                <constraint firstItem="SGc-3t-dD8" firstAttribute="top" secondItem="HZR-Rt-bQQ" secondAttribute="bottom" constant="15" id="MyR-KD-8D0"/>
+                <constraint firstItem="lpm-bZ-ybp" firstAttribute="top" secondItem="vPo-kJ-gTZ" secondAttribute="bottom" constant="7" id="NQZ-hA-FQS"/>
+                <constraint firstItem="HZR-Rt-bQQ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="crV-QQ-eGg"/>
+                <constraint firstItem="rgd-xU-Q5W" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="fuh-IY-kSw"/>
+                <constraint firstItem="tGe-AD-gIP" firstAttribute="leading" secondItem="rgd-xU-Q5W" secondAttribute="leading" constant="10" id="m5y-O5-IZr"/>
+                <constraint firstAttribute="bottom" secondItem="pAV-sW-i2B" secondAttribute="bottom" id="mbY-Tu-Lw5"/>
+                <constraint firstItem="rgd-xU-Q5W" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="nnZ-ER-zK7"/>
+                <constraint firstItem="SGc-3t-dD8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="oGX-Wd-H3o"/>
+                <constraint firstItem="tGe-AD-gIP" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="oyy-5r-8Fl"/>
+                <constraint firstItem="pAV-sW-i2B" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pul-e2-62R"/>
+                <constraint firstItem="Fhh-2E-iOp" firstAttribute="width" secondItem="Fhh-2E-iOp" secondAttribute="height" multiplier="20:8" id="woQ-ee-1Pp"/>
+                <constraint firstItem="xfe-Lg-tCv" firstAttribute="top" secondItem="tGe-AD-gIP" secondAttribute="bottom" constant="2" id="zkf-bF-Noz"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="285" height="367"/>
+            <connections>
+                <outlet property="buttonSelectPlan" destination="Fhh-2E-iOp" id="LA6-zk-cEu"/>
+                <outlet property="labelCalories" destination="tGe-AD-gIP" id="dOC-2l-TBl"/>
+                <outlet property="labelDescription" destination="SGc-3t-dD8" id="kxF-u2-anD"/>
+                <outlet property="labelName" destination="HZR-Rt-bQQ" id="RqZ-61-BWs"/>
+                <outlet property="labelPerMonth" destination="lpm-bZ-ybp" id="Qt8-jR-2DN"/>
+                <outlet property="labelPrice" destination="vPo-kJ-gTZ" id="NsO-2j-OjL"/>
+            </connections>
+            <point key="canvasLocation" x="-40.5" y="122.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="calorieImage" width="67" height="67"/>
+    </resources>
+</document>

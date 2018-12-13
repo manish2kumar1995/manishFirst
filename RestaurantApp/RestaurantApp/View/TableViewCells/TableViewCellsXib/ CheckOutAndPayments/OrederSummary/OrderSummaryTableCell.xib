@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="58" id="KGk-i7-Jjw" customClass="OrderSummaryTableCell" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="57.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I7G-75-fbd">
+                        <rect key="frame" x="20" y="0.0" width="280" height="57.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1x Lentil Soup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t3l-yY-Cpp">
+                                <rect key="frame" x="15" y="3" width="78.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.6587645411491394" green="0.65886133909225464" blue="0.65874332189559937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steak( Medium )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWq-IL-B1T">
+                                <rect key="frame" x="15" y="19.5" width="93" height="14.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14.5" id="8Wr-qT-VR9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.65876454110000005" green="0.6588613391" blue="0.65874332189999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 QAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N26-ab-OVA">
+                                <rect key="frame" x="221.5" y="21.5" width="43.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.6588235294117647" green="0.6588235294117647" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sauce( Pepper )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhe-v4-7RT">
+                                <rect key="frame" x="15" y="36" width="91.5" height="14.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14.5" id="kDf-WE-IVv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.65876454110000005" green="0.6588613391" blue="0.65874332189999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95677906274795532" green="0.95691639184951782" blue="0.95674914121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="bhe-v4-7RT" secondAttribute="bottom" constant="7" id="0Tp-NT-LVP"/>
+                            <constraint firstItem="t3l-yY-Cpp" firstAttribute="top" secondItem="I7G-75-fbd" secondAttribute="top" constant="3" id="8ha-Ge-cYl"/>
+                            <constraint firstItem="bhe-v4-7RT" firstAttribute="top" secondItem="TWq-IL-B1T" secondAttribute="bottom" constant="2" id="Fy9-gt-Rhz"/>
+                            <constraint firstItem="t3l-yY-Cpp" firstAttribute="leading" secondItem="I7G-75-fbd" secondAttribute="leading" constant="15" id="Hy5-Z6-YaZ"/>
+                            <constraint firstItem="bhe-v4-7RT" firstAttribute="leading" secondItem="TWq-IL-B1T" secondAttribute="leading" id="M8v-0w-NW2"/>
+                            <constraint firstItem="TWq-IL-B1T" firstAttribute="leading" secondItem="t3l-yY-Cpp" secondAttribute="leading" id="NL9-np-11T"/>
+                            <constraint firstItem="TWq-IL-B1T" firstAttribute="top" secondItem="t3l-yY-Cpp" secondAttribute="bottom" constant="2" id="TYa-ky-fLS"/>
+                            <constraint firstItem="N26-ab-OVA" firstAttribute="centerY" secondItem="I7G-75-fbd" secondAttribute="centerY" id="kD7-yF-kcN"/>
+                            <constraint firstAttribute="trailing" secondItem="N26-ab-OVA" secondAttribute="trailing" constant="15" id="kOA-ZB-6Wh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="I7G-75-fbd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="1AF-WP-TsY"/>
+                    <constraint firstItem="I7G-75-fbd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="8gu-id-fUX"/>
+                    <constraint firstAttribute="bottom" secondItem="I7G-75-fbd" secondAttribute="bottom" id="fcI-l4-EtY"/>
+                    <constraint firstAttribute="trailing" secondItem="I7G-75-fbd" secondAttribute="trailing" constant="20" id="r7l-3C-WDj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelPrice" destination="N26-ab-OVA" id="U6q-sF-PgY"/>
+                <outlet property="labelSauce" destination="bhe-v4-7RT" id="zAq-XM-Vc9"/>
+                <outlet property="labelSauceHeightConstraint" destination="kDf-WE-IVv" id="HjJ-95-wIv"/>
+                <outlet property="labelSteak" destination="TWq-IL-B1T" id="3wP-To-zD3"/>
+                <outlet property="labelSteakHeightConstraint" destination="8Wr-qT-VR9" id="T1E-nr-Tc2"/>
+                <outlet property="laeblDishName" destination="t3l-yY-Cpp" id="ZS7-2e-er1"/>
+                <outlet property="viewInCell" destination="I7G-75-fbd" id="5cY-ju-up4"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="66"/>
+        </tableViewCell>
+    </objects>
+</document>

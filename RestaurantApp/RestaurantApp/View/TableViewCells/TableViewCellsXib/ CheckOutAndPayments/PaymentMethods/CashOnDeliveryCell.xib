@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="37" id="KGk-i7-Jjw" customClass="CashOnDeliveryCell" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="36.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m8Y-Gh-HQO">
+                        <rect key="frame" x="20" y="0.0" width="280" height="36.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0f-Cu-B8B">
+                                <rect key="frame" x="15" y="3" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="h0f-Cu-B8B" secondAttribute="height" multiplier="1:1" id="Uqk-Cb-118"/>
+                                    <constraint firstAttribute="height" constant="25" id="epK-n5-K5r"/>
+                                </constraints>
+                                <state key="normal" image="uncheck"/>
+                                <connections>
+                                    <action selector="buttonCheckAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Cjg-Pc-t3F"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cash on delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WW3-B9-aYd">
+                                <rect key="frame" x="68" y="8" width="101" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.51367849109999997" green="0.51375561950000004" blue="0.51366156340000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="codIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Tw2-Pr-HNx">
+                                <rect key="frame" x="48" y="8.5" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Yp8-SS-ggk"/>
+                                    <constraint firstAttribute="width" secondItem="Tw2-Pr-HNx" secondAttribute="height" multiplier="1:1" id="gFc-BH-5bB"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95677906270000002" green="0.95691639179999999" blue="0.95674914119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Tw2-Pr-HNx" firstAttribute="centerY" secondItem="h0f-Cu-B8B" secondAttribute="centerY" id="78K-pQ-sun"/>
+                            <constraint firstItem="WW3-B9-aYd" firstAttribute="leading" secondItem="Tw2-Pr-HNx" secondAttribute="trailing" constant="5" id="S6Q-UN-sLg"/>
+                            <constraint firstItem="h0f-Cu-B8B" firstAttribute="leading" secondItem="m8Y-Gh-HQO" secondAttribute="leading" constant="15" id="TdN-kg-bLN"/>
+                            <constraint firstItem="Tw2-Pr-HNx" firstAttribute="leading" secondItem="h0f-Cu-B8B" secondAttribute="trailing" constant="8" id="mDn-vX-s02"/>
+                            <constraint firstItem="h0f-Cu-B8B" firstAttribute="top" secondItem="m8Y-Gh-HQO" secondAttribute="top" constant="3" id="tOP-Ha-cWR"/>
+                            <constraint firstItem="WW3-B9-aYd" firstAttribute="centerY" secondItem="h0f-Cu-B8B" secondAttribute="centerY" id="tQb-gg-CtX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="m8Y-Gh-HQO" secondAttribute="bottom" id="I01-oi-Dzc"/>
+                    <constraint firstItem="m8Y-Gh-HQO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="XFs-oh-AOw"/>
+                    <constraint firstAttribute="trailing" secondItem="m8Y-Gh-HQO" secondAttribute="trailing" constant="20" id="x9W-u6-O22"/>
+                    <constraint firstItem="m8Y-Gh-HQO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yKs-i6-PgP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonCheck" destination="h0f-Cu-B8B" id="t7K-oE-6cl"/>
+                <outlet property="imageIconCOD" destination="Tw2-Pr-HNx" id="B5n-tB-3DV"/>
+                <outlet property="labelCashOnDelivery" destination="WW3-B9-aYd" id="r0A-pi-bjx"/>
+                <outlet property="viewInCell" destination="m8Y-Gh-HQO" id="AMx-bg-tMo"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="55.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="codIcon" width="20" height="16"/>
+        <image name="uncheck" width="40" height="40"/>
+    </resources>
+</document>

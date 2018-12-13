@@ -1,0 +1,165 @@
+
+/* Class = "UILabel"; text = "Hilton Hotels & Suites"; ObjectID = "0D6-I2-DuX"; */
+"0D6-I2-DuX.text" = "Hilton Hotels & Suites";
+
+/* Class = "UILabel"; text = "Do you really want to remove that credit card from your account?"; ObjectID = "121-07-pdd"; */
+"121-07-pdd.text" = "Do you really want to remove that credit card from your account?";
+
+/* Class = "UILabel"; text = "Search healthylicous restaurants"; ObjectID = "1KB-nJ-0tH"; */
+"1KB-nJ-0tH.text" = "Search healthylicous restaurants";
+
+/* Class = "UIButton"; normalTitle = "Check out"; ObjectID = "25J-YQ-7JS"; */
+"25J-YQ-7JS.normalTitle" = "Check out";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "3JV-b7-z3R"; */
+"3JV-b7-z3R.text" = "3";
+
+/* Class = "UIButton"; normalTitle = "Subscription Mode"; ObjectID = "5uR-Lb-t12"; */
+"5uR-Lb-t12.normalTitle" = "Subscription Mode";
+
+/* Class = "UILabel"; text = "53%"; ObjectID = "8pb-Fc-Irh"; */
+"8pb-Fc-Irh.text" = "53%";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "DA0-E7-atM"; */
+"DA0-E7-atM.text" = "English";
+
+/* Class = "UILabel"; text = "restaurants found matching your search"; ObjectID = "DLw-Nh-K0I"; */
+"DLw-Nh-K0I.text" = "restaurants found matching your search";
+
+/* Class = "UILabel"; text = "Protein"; ObjectID = "EP4-VV-RRA"; */
+"EP4-VV-RRA.text" = "Protein";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "FG1-v4-ouC"; */
+"FG1-v4-ouC.text" = "0";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "FKE-zf-bLB"; */
+"FKE-zf-bLB.text" = "1";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Fd2-oz-5b3"; */
+"Fd2-oz-5b3.title" = " ";
+
+/* Class = "UIViewController"; title = "FilterByViewController"; ObjectID = "KMj-UJ-lgu"; */
+"KMj-UJ-lgu.title" = "FilterByViewController";
+
+/* Class = "UILabel"; text = "30 min delivery time"; ObjectID = "KvX-uS-mpC"; */
+"KvX-uS-mpC.text" = "30 min delivery time";
+
+/* Class = "UILabel"; text = "My Account"; ObjectID = "PIg-MX-aIS"; */
+"PIg-MX-aIS.text" = "My Account";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "PLq-A5-qTP"; */
+"PLq-A5-qTP.text" = "Title";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "PSO-s6-QJU"; */
+"PSO-s6-QJU.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "On Demand Mode"; ObjectID = "T26-Mu-pd5"; */
+"T26-Mu-pd5.normalTitle" = "On Demand Mode";
+
+/* Class = "UIButton"; normalTitle = "APPLY FILTERS"; ObjectID = "T50-Q4-iNa"; */
+"T50-Q4-iNa.normalTitle" = "APPLY FILTERS";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "T8K-47-D48"; */
+"T8K-47-D48.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "COMPLETE ORDER"; ObjectID = "XfZ-Ln-d8c"; */
+"XfZ-Ln-d8c.normalTitle" = "COMPLETE ORDER";
+
+/* Class = "UILabel"; text = "Get your meal delivered to your doorstep"; ObjectID = "Xg4-Sq-Nob"; */
+"Xg4-Sq-Nob.text" = "Get your meal delivered to your doorstep";
+
+/* Class = "UILabel"; text = "Doha"; ObjectID = "aP5-lo-IbI"; */
+"aP5-lo-IbI.text" = "Doha";
+
+/* Class = "UIButton"; normalTitle = "Check out"; ObjectID = "agL-xD-uP3"; */
+"agL-xD-uP3.normalTitle" = "Check out";
+
+/* Class = "UILabel"; text = "3mi"; ObjectID = "biA-8f-dGL"; */
+"biA-8f-dGL.text" = "3mi";
+
+/* Class = "UILabel"; text = "Easily find meals that fit your diet and tastebuds"; ObjectID = "c1x-RN-JyP"; */
+"c1x-RN-JyP.text" = "Easily find meals that fit your diet and tastebuds";
+
+/* Class = "UILabel"; text = "0 QAR"; ObjectID = "cOg-gf-WMG"; */
+"cOg-gf-WMG.text" = "0 QAR";
+
+/* Class = "UILabel"; text = "Hilton Hotel & Suites"; ObjectID = "dco-Cv-U1p"; */
+"dco-Cv-U1p.text" = "Hilton Hotel & Suites";
+
+/* Class = "UIButton"; normalTitle = "COMPLETE ORDER"; ObjectID = "dgn-ro-8WD"; */
+"dgn-ro-8WD.normalTitle" = "COMPLETE ORDER";
+
+/* Class = "UILabel"; text = "Lentil Soup"; ObjectID = "dtv-ls-1N1"; */
+"dtv-ls-1N1.text" = "Lentil Soup";
+
+/* Class = "UILabel"; text = "180K"; ObjectID = "ecT-lG-Yry"; */
+"ecT-lG-Yry.text" = "180K";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "eh7-5X-flx"; */
+"eh7-5X-flx.text" = "0";
+
+/* Class = "UILabel"; text = "0 QAR"; ObjectID = "ejg-R1-3IA"; */
+"ejg-R1-3IA.text" = "0 QAR";
+
+/* Class = "UIButton"; normalTitle = "SORT"; ObjectID = "fO0-jR-rsO"; */
+"fO0-jR-rsO.normalTitle" = "SORT";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "frf-SJ-Fno"; */
+"frf-SJ-Fno.text" = "Language";
+
+/* Class = "UIButton"; normalTitle = "FIND RESTAURANTS"; ObjectID = "fx8-VK-agZ"; */
+"fx8-VK-agZ.normalTitle" = "FIND RESTAURANTS";
+
+/* Class = "UITextField"; placeholder = "    e.g. Old Airport Road"; ObjectID = "g3I-ZH-fUp"; */
+"g3I-ZH-fUp.placeholder" = "    e.g. Old Airport Road";
+
+/* Class = "UILabel"; text = "(348)"; ObjectID = "hf5-Oz-yjT"; */
+"hf5-Oz-yjT.text" = "(348)";
+
+/* Class = "UILabel"; text = "20 QAR"; ObjectID = "in2-jh-72a"; */
+"in2-jh-72a.text" = "20 QAR";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jww-dD-ceH"; */
+"jww-dD-ceH.text" = "Label";
+
+/* Class = "UILabel"; text = "How it works..."; ObjectID = "k9E-3z-cfR"; */
+"k9E-3z-cfR.text" = "How it works...";
+
+/* Class = "UIButton"; normalTitle = "FILTER"; ObjectID = "lcc-gV-8yy"; */
+"lcc-gV-8yy.normalTitle" = "FILTER";
+
+/* Class = "UILabel"; text = "Enter your address"; ObjectID = "lpt-KJ-Gyr"; */
+"lpt-KJ-Gyr.text" = "Enter your address";
+
+/* Class = "UILabel"; text = "CUSINES"; ObjectID = "mAA-A3-zLX"; */
+"mAA-A3-zLX.text" = "CUSINES";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "n6A-Ba-qdB"; */
+"n6A-Ba-qdB.text" = "Detail";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "nVW-fi-qxo"; */
+"nVW-fi-qxo.title" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "nhf-SA-TPo"; */
+"nhf-SA-TPo.text" = "Label";
+
+/* Class = "UILabel"; text = "Hilton Hotel & Suites"; ObjectID = "p2d-lA-CWh"; */
+"p2d-lA-CWh.text" = "Hilton Hotel & Suites";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "phQ-SJ-HmT"; */
+"phQ-SJ-HmT.text" = "2";
+
+/* Class = "UIButton"; normalTitle = "Remove"; ObjectID = "qha-id-PHq"; */
+"qha-id-PHq.normalTitle" = "Remove";
+
+/* Class = "UILabel"; text = "Poultry, seafood, Veggie"; ObjectID = "tHb-F0-26l"; */
+"tHb-F0-26l.text" = "Poultry, seafood, Veggie";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vxM-1p-FJQ"; */
+"vxM-1p-FJQ.text" = "Label";
+
+/* Class = "UILabel"; text = "Mohammed Bin Thani Street"; ObjectID = "wkZ-y6-iw0"; */
+"wkZ-y6-iw0.text" = "Mohammed Bin Thani Street";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "y7y-jO-xna"; */
+"y7y-jO-xna.normalTitle" = "CONTINUE";

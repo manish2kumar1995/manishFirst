@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="63" id="KGk-i7-Jjw" customClass="DeliveryAddressSectionHeader" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="63"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="62.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSw-qQ-OV2">
+                        <rect key="frame" x="20" y="0.0" width="274" height="62.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDq-6v-sez">
+                                <rect key="frame" x="15" y="15" width="115.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.68235294117647061" green="0.031372549019607843" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVt-mf-vKr">
+                                <rect key="frame" x="229" y="9" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yVt-mf-vKr" secondAttribute="height" multiplier="1:1" id="T8f-dx-inn"/>
+                                    <constraint firstAttribute="height" constant="30" id="xIH-p7-20o"/>
+                                </constraints>
+                                <state key="normal" image="editNewIcon"/>
+                                <connections>
+                                    <action selector="editButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="SNS-QT-TbJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Al Matar Street, Doha, Qatar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mae-mF-p9F">
+                                <rect key="frame" x="15" y="38" width="239" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.70189827680587769" green="0.70200085639953613" blue="0.70187574625015259" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95677906270000002" green="0.95691639179999999" blue="0.95674914119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yVt-mf-vKr" firstAttribute="centerY" secondItem="nDq-6v-sez" secondAttribute="centerY" id="0h6-op-XJK"/>
+                            <constraint firstAttribute="trailing" secondItem="yVt-mf-vKr" secondAttribute="trailing" constant="15" id="8lN-JR-YjW"/>
+                            <constraint firstItem="yVt-mf-vKr" firstAttribute="width" secondItem="yVt-mf-vKr" secondAttribute="height" multiplier="1:1" id="E01-nV-JnA"/>
+                            <constraint firstAttribute="trailing" secondItem="Mae-mF-p9F" secondAttribute="trailing" constant="20" id="IJb-Ma-8JM"/>
+                            <constraint firstItem="Mae-mF-p9F" firstAttribute="leading" secondItem="nDq-6v-sez" secondAttribute="leading" id="MO0-H6-z6P"/>
+                            <constraint firstItem="Mae-mF-p9F" firstAttribute="top" secondItem="nDq-6v-sez" secondAttribute="bottom" constant="5" id="cfH-Yv-sVh"/>
+                            <constraint firstItem="nDq-6v-sez" firstAttribute="leading" secondItem="MSw-qQ-OV2" secondAttribute="leading" constant="15" id="djK-dv-QQm"/>
+                            <constraint firstItem="nDq-6v-sez" firstAttribute="top" secondItem="MSw-qQ-OV2" secondAttribute="top" constant="15" id="zhB-Pc-9oe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="MSw-qQ-OV2" secondAttribute="trailing" constant="20" id="FxY-OE-yiG"/>
+                    <constraint firstItem="MSw-qQ-OV2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="MXA-w5-MQv"/>
+                    <constraint firstItem="MSw-qQ-OV2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="eNP-ma-4tw"/>
+                    <constraint firstAttribute="bottom" secondItem="MSw-qQ-OV2" secondAttribute="bottom" id="v77-N2-Vol"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="editButton" destination="yVt-mf-vKr" id="3Xo-E8-93S"/>
+                <outlet property="labelAddress" destination="Mae-mF-p9F" id="cvL-Q4-F8X"/>
+                <outlet property="labelDeliveryAddress" destination="nDq-6v-sez" id="xf3-5Y-1LT"/>
+                <outlet property="viewInCell" destination="MSw-qQ-OV2" id="Hf7-BI-Xm4"/>
+            </connections>
+            <point key="canvasLocation" x="15" y="123.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="editNewIcon" width="37" height="37"/>
+    </resources>
+</document>

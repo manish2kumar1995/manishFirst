@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="71" id="KGk-i7-Jjw" customClass="EditPaymentsCell" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="70.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOa-th-89q">
+                        <rect key="frame" x="20" y="0.0" width="280" height="71"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VcX-gK-XKj">
+                                <rect key="frame" x="0.0" y="20.5" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VcX-gK-XKj" secondAttribute="height" multiplier="1:1" id="0JM-bz-ibV"/>
+                                    <constraint firstAttribute="height" constant="30" id="h9C-Z5-TsZ"/>
+                                </constraints>
+                                <state key="normal" image="uncheck"/>
+                                <connections>
+                                    <action selector="buttonCheckAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="keh-8c-S2H"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVu-kJ-QZU">
+                                <rect key="frame" x="42" y="20.5" width="31" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10/2026" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KR-Ae-QyK">
+                                <rect key="frame" x="41.5" y="40" width="43.5" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.70974069833755493" green="0.70984452962875366" blue="0.70971792936325073" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="****3465" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7x-Hh-plI">
+                                <rect key="frame" x="42" y="27" width="208" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbN-Aq-q2g">
+                                <rect key="frame" x="255" y="23.5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="JPY-GR-Zlt"/>
+                                    <constraint firstAttribute="width" secondItem="mbN-Aq-q2g" secondAttribute="height" multiplier="1:1" id="kKe-IV-gZB"/>
+                                </constraints>
+                                <state key="normal" image="crossIcon_07"/>
+                                <connections>
+                                    <action selector="buttonCrossAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="qXa-8c-jgh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k7x-Hh-plI" firstAttribute="centerY" secondItem="mbN-Aq-q2g" secondAttribute="centerY" id="1kp-J8-Edx"/>
+                            <constraint firstAttribute="trailing" secondItem="mbN-Aq-q2g" secondAttribute="trailing" id="4Jo-wW-m7d"/>
+                            <constraint firstItem="VcX-gK-XKj" firstAttribute="centerY" secondItem="qOa-th-89q" secondAttribute="centerY" id="IhX-Lx-AnX"/>
+                            <constraint firstItem="fVu-kJ-QZU" firstAttribute="leading" secondItem="VcX-gK-XKj" secondAttribute="trailing" constant="12" id="N9L-MS-PT6"/>
+                            <constraint firstItem="k7x-Hh-plI" firstAttribute="leading" secondItem="fVu-kJ-QZU" secondAttribute="leading" id="Qce-6N-6h6"/>
+                            <constraint firstItem="VcX-gK-XKj" firstAttribute="leading" secondItem="qOa-th-89q" secondAttribute="leading" id="RRJ-Ns-GJC"/>
+                            <constraint firstItem="mbN-Aq-q2g" firstAttribute="centerY" secondItem="VcX-gK-XKj" secondAttribute="centerY" id="aXA-yo-Mt9"/>
+                            <constraint firstItem="fVu-kJ-QZU" firstAttribute="top" secondItem="VcX-gK-XKj" secondAttribute="top" id="c1U-0f-9PH"/>
+                            <constraint firstItem="mbN-Aq-q2g" firstAttribute="leading" secondItem="k7x-Hh-plI" secondAttribute="trailing" constant="5" id="iIe-aY-ek7"/>
+                            <constraint firstItem="2KR-Ae-QyK" firstAttribute="leading" secondItem="fVu-kJ-QZU" secondAttribute="leading" id="z4K-M6-iEb"/>
+                            <constraint firstItem="2KR-Ae-QyK" firstAttribute="top" secondItem="fVu-kJ-QZU" secondAttribute="bottom" id="zQt-2N-WyW"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dtr-OU-sHK">
+                        <rect key="frame" x="0.0" y="69" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.87051171059999999" green="0.87063723800000004" blue="0.87048423289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="TDq-pA-RkZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qOa-th-89q" secondAttribute="bottom" id="6BK-Uu-sfW"/>
+                    <constraint firstItem="qOa-th-89q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="GCQ-1D-Q7i"/>
+                    <constraint firstItem="Dtr-OU-sHK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="NAL-t8-up3"/>
+                    <constraint firstItem="qOa-th-89q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="R88-i2-lgO"/>
+                    <constraint firstAttribute="trailing" secondItem="qOa-th-89q" secondAttribute="trailing" constant="20" id="i4P-LP-GvS"/>
+                    <constraint firstAttribute="trailing" secondItem="Dtr-OU-sHK" secondAttribute="trailing" id="jrf-it-8VN"/>
+                    <constraint firstAttribute="bottom" secondItem="Dtr-OU-sHK" secondAttribute="bottom" id="s3k-sy-xpO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonCheck" destination="VcX-gK-XKj" id="E7p-Kf-C1a"/>
+                <outlet property="buttonCross" destination="mbN-Aq-q2g" id="fSh-aD-uPU"/>
+                <outlet property="labelCardNumber" destination="k7x-Hh-plI" id="K8q-02-Etk"/>
+                <outlet property="labelMethodName" destination="fVu-kJ-QZU" id="XpF-YK-QAR"/>
+                <outlet property="labelMonthYear" destination="2KR-Ae-QyK" id="ixQ-2D-8uD"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="65.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="crossIcon_07" width="29" height="28"/>
+        <image name="uncheck" width="40" height="40"/>
+    </resources>
+</document>

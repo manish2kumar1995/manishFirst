@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham Medium Regular.ttf">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="221" id="KGk-i7-Jjw" customClass="OrderConfirmedTableHeader" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="221"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="220.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gHx-qy-gAf">
+                        <rect key="frame" x="20" y="0.0" width="280" height="220.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orderConfirmCheck" translatesAutoresizingMaskIntoConstraints="NO" id="wjE-lX-77N">
+                                <rect key="frame" x="100" y="43" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="QcD-2v-0xs"/>
+                                    <constraint firstAttribute="width" secondItem="wjE-lX-77N" secondAttribute="height" multiplier="1:1" id="vWy-8R-mgC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your order is confirmed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvj-tw-zsw">
+                                <rect key="frame" x="40.5" y="138" width="199" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.68238526582717896" blue="0.15682214498519897" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILZ-Vj-JWf">
+                                <rect key="frame" x="118" y="186" width="44.5" height="14.5"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bvj-tw-zsw" firstAttribute="top" secondItem="wjE-lX-77N" secondAttribute="bottom" constant="15" id="XeS-S7-TMX"/>
+                            <constraint firstItem="bvj-tw-zsw" firstAttribute="centerX" secondItem="wjE-lX-77N" secondAttribute="centerX" id="a9p-xw-Kl3"/>
+                            <constraint firstItem="ILZ-Vj-JWf" firstAttribute="centerX" secondItem="gHx-qy-gAf" secondAttribute="centerX" id="aL6-YB-ZXf"/>
+                            <constraint firstItem="wjE-lX-77N" firstAttribute="centerX" secondItem="gHx-qy-gAf" secondAttribute="centerX" id="gnj-rm-457"/>
+                            <constraint firstItem="wjE-lX-77N" firstAttribute="centerY" secondItem="gHx-qy-gAf" secondAttribute="centerY" multiplier="0.75" id="r0z-uK-eSh"/>
+                            <constraint firstItem="ILZ-Vj-JWf" firstAttribute="top" secondItem="bvj-tw-zsw" secondAttribute="bottom" constant="25" id="vS9-zd-mqm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gHx-qy-gAf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="DCB-7A-J2Y"/>
+                    <constraint firstAttribute="bottom" secondItem="gHx-qy-gAf" secondAttribute="bottom" id="RYK-tu-8Yz"/>
+                    <constraint firstItem="gHx-qy-gAf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="m9f-io-5xI"/>
+                    <constraint firstAttribute="trailing" secondItem="gHx-qy-gAf" secondAttribute="trailing" constant="20" id="vUH-1K-zxD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelOrderNumber" destination="ILZ-Vj-JWf" id="J56-TS-lGa"/>
+                <outlet property="labelStatus" destination="bvj-tw-zsw" id="klY-Kp-XjJ"/>
+                <outlet property="statusImageVIew" destination="wjE-lX-77N" id="BpB-VA-8wN"/>
+            </connections>
+            <point key="canvasLocation" x="5" y="60.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="orderConfirmCheck" width="59" height="60"/>
+    </resources>
+</document>

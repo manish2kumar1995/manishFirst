@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="127" id="KGk-i7-Jjw" customClass="SpecialNotesTableCell" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="126.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Nv-kq-kr8">
+                        <rect key="frame" x="20" y="0.0" width="280" height="126.5"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Z9q-fA-ggN" customClass="KMPlaceholderTextView" customModule="RestaurantApp" customModuleProvider="target">
+                                <rect key="frame" x="15" y="10" width="250" height="101.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Enter Special Notes  "/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Z9q-fA-ggN" secondAttribute="bottom" constant="15" id="92n-kf-83t"/>
+                            <constraint firstAttribute="trailing" secondItem="Z9q-fA-ggN" secondAttribute="trailing" constant="15" id="PZt-R0-xng"/>
+                            <constraint firstItem="Z9q-fA-ggN" firstAttribute="leading" secondItem="5Nv-kq-kr8" secondAttribute="leading" constant="15" id="pBy-hn-3nb"/>
+                            <constraint firstItem="Z9q-fA-ggN" firstAttribute="top" secondItem="5Nv-kq-kr8" secondAttribute="top" constant="10" id="s2r-by-vFj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Nv-kq-kr8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="4tl-gv-IGa"/>
+                    <constraint firstAttribute="bottom" secondItem="5Nv-kq-kr8" secondAttribute="bottom" id="lxq-Q0-Jsn"/>
+                    <constraint firstItem="5Nv-kq-kr8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="qHa-tp-6KH"/>
+                    <constraint firstAttribute="trailing" secondItem="5Nv-kq-kr8" secondAttribute="trailing" constant="20" id="zWC-d1-FaI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="specialNotesTextVIew" destination="Z9q-fA-ggN" id="a6T-nP-gdV"/>
+                <outlet property="viewInCell" destination="5Nv-kq-kr8" id="LsD-WC-KMS"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="136.5"/>
+        </tableViewCell>
+    </objects>
+</document>

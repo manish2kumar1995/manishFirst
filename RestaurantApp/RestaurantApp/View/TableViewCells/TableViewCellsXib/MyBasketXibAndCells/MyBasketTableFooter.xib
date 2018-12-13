@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gotham Medium Regular.ttf">
+            <string>GothamMedium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MyBasketTableFooter" rowHeight="151" id="KGk-i7-Jjw" customClass="MyBasketTableFooter" customModule="RestaurantApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="332" height="151"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="332" height="150.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="84h-DF-Fi2">
+                        <rect key="frame" x="20" y="25" width="292" height="110"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtotal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89W-mv-k8G">
+                                <rect key="frame" x="20" y="20" width="60" height="12.5"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60 QAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="091-6e-cEy">
+                                <rect key="frame" x="215" y="20.5" width="57" height="12.5"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 QAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuM-jD-t4C">
+                                <rect key="frame" x="219" y="48" width="53" height="12.5"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="70 QAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyh-Pi-bLp">
+                                <rect key="frame" x="216" y="81" width="56" height="12"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="14"/>
+                                <color key="textColor" red="0.63923412561416626" green="0.0" blue="9.5341107225976884e-05" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZG-pj-f3t">
+                                <rect key="frame" x="20" y="80" width="36.5" height="12.5"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="14"/>
+                                <color key="textColor" red="0.63923412561416626" green="0.0" blue="9.5341107225976884e-05" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery Fee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOI-Cg-lyw">
+                                <rect key="frame" x="20" y="47.5" width="89" height="12.5"/>
+                                <fontDescription key="fontDescription" name="GothamMedium" family="Gotham Medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9lA-Df-eZu">
+                                <rect key="frame" x="0.0" y="70.5" width="292" height="0.5"/>
+                                <color key="backgroundColor" red="0.94501537084579468" green="0.94515103101730347" blue="0.94498568773269653" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.90000000000000002" id="Jle-0d-dn4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95677906274795532" green="0.95691639184951782" blue="0.95674914121627808" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9lA-Df-eZu" firstAttribute="centerX" secondItem="84h-DF-Fi2" secondAttribute="centerX" id="22e-Xx-kNJ"/>
+                            <constraint firstItem="kZG-pj-f3t" firstAttribute="leading" secondItem="mOI-Cg-lyw" secondAttribute="leading" id="3Px-HN-qne"/>
+                            <constraint firstItem="091-6e-cEy" firstAttribute="centerY" secondItem="89W-mv-k8G" secondAttribute="centerY" id="4NM-ng-qIh"/>
+                            <constraint firstItem="89W-mv-k8G" firstAttribute="top" secondItem="84h-DF-Fi2" secondAttribute="top" constant="20" id="6pM-6X-paK"/>
+                            <constraint firstItem="mOI-Cg-lyw" firstAttribute="top" secondItem="89W-mv-k8G" secondAttribute="bottom" constant="15" id="9vO-EA-Zjk"/>
+                            <constraint firstAttribute="trailing" secondItem="091-6e-cEy" secondAttribute="trailing" constant="20" id="FTw-QX-VQG"/>
+                            <constraint firstItem="kZG-pj-f3t" firstAttribute="top" secondItem="mOI-Cg-lyw" secondAttribute="bottom" constant="20" id="Jlu-SP-sjL"/>
+                            <constraint firstItem="89W-mv-k8G" firstAttribute="leading" secondItem="84h-DF-Fi2" secondAttribute="leading" constant="20" id="PcR-XR-naW"/>
+                            <constraint firstItem="tuM-jD-t4C" firstAttribute="trailing" secondItem="091-6e-cEy" secondAttribute="trailing" id="Wv4-9w-d3J"/>
+                            <constraint firstItem="wyh-Pi-bLp" firstAttribute="trailing" secondItem="tuM-jD-t4C" secondAttribute="trailing" id="ay7-tu-vLI"/>
+                            <constraint firstItem="tuM-jD-t4C" firstAttribute="centerY" secondItem="mOI-Cg-lyw" secondAttribute="centerY" id="cdQ-3A-CEf"/>
+                            <constraint firstItem="wyh-Pi-bLp" firstAttribute="centerY" secondItem="kZG-pj-f3t" secondAttribute="centerY" id="hJX-MW-J9B"/>
+                            <constraint firstItem="9lA-Df-eZu" firstAttribute="top" secondItem="tuM-jD-t4C" secondAttribute="bottom" constant="10" id="hNR-tl-kEB"/>
+                            <constraint firstAttribute="trailing" secondItem="9lA-Df-eZu" secondAttribute="trailing" id="hsY-p9-ntP"/>
+                            <constraint firstItem="9lA-Df-eZu" firstAttribute="leading" secondItem="84h-DF-Fi2" secondAttribute="leading" id="j3H-h9-8cp"/>
+                            <constraint firstItem="mOI-Cg-lyw" firstAttribute="leading" secondItem="89W-mv-k8G" secondAttribute="leading" id="rXz-I2-jc7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="84h-DF-Fi2" secondAttribute="trailing" constant="20" id="CHh-gy-S81"/>
+                    <constraint firstItem="84h-DF-Fi2" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ZgU-WL-uQJ"/>
+                    <constraint firstItem="84h-DF-Fi2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="lQZ-Ce-21n"/>
+                    <constraint firstItem="84h-DF-Fi2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="tKS-nC-NON"/>
+                    <constraint firstAttribute="bottom" secondItem="84h-DF-Fi2" secondAttribute="bottom" constant="15.5" id="u6y-b2-opb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelDeliveryFee" destination="tuM-jD-t4C" id="YNT-mv-hTJ"/>
+                <outlet property="labelSubTotal" destination="091-6e-cEy" id="HNm-N0-abW"/>
+                <outlet property="labelTotal" destination="wyh-Pi-bLp" id="Q4r-st-Dc1"/>
+                <outlet property="viewInCell" destination="84h-DF-Fi2" id="CaQ-HI-Bes"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="169.5"/>
+        </tableViewCell>
+    </objects>
+</document>
